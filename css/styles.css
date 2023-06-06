@@ -82,10 +82,7 @@ body {
 
 
 .logo-text {
-    display: flex;
-    flex-direction: row;
     align-items: center;
-    display: flex;
     margin-right: 76px;
 
     font-family: 'Raleway',sans-serif;
@@ -295,8 +292,7 @@ margin-right: 24px;
 /* Footer */
 .footer-first-logo {
     color:var(--primary-brand);
-    display: inline-block;
-    margin-bottom: 16px
+    margin-bottom: 16px;
 }
     .footer-second-logo {
         color:var(--light)
@@ -319,7 +315,6 @@ letter-spacing: 0.04em;
 color:var(--primary-brand);
 background:var(--light);
 cursor:pointer;
-border: 1px solid var(--accent)
 }
 .content-button:hover,
 .content-button:focus {
@@ -343,6 +338,7 @@ border: 1px solid var(--accent)
 }
 .content-button-item {
     flex-direction: raw;
+    border: 1px solid var(--accent)
 
 
 }
