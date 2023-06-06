@@ -293,6 +293,7 @@ margin-right: 24px;
 .footer-first-logo {
     color:var(--primary-brand);
     margin-bottom: 16px;
+    display: inline-block;
 }
     .footer-second-logo {
         color:var(--light)
@@ -315,6 +316,10 @@ letter-spacing: 0.04em;
 color:var(--primary-brand);
 background:var(--light);
 cursor:pointer;
+display: inline-block;
+padding: 12px 24px;
+border-radius: 4px;
+border: 1px solid var(--accent);
 }
 .content-button:hover,
 .content-button:focus {
@@ -338,20 +343,11 @@ cursor:pointer;
 }
 .content-button-item {
     flex-direction: raw;
-    border: 1px solid var(--accent)
-
-
 }
 .content-button-item:not(:last-child) {
     margin-right: 24px;
 }
-.content-button{
-    display: inline-block;
-    padding: 12px 24px;
-    border-radius: 3px;
-    border: 0;
-    border-radius: 4px;
-}
+
 .content-list {
     flex-wrap: wrap;
     
