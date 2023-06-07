@@ -269,16 +269,16 @@ body {
 
 /* Footer */
 .footer-first-logo {
-  color: var(--primary-brand);
-  margin-bottom: 16px;
-  display: inline-block;
-  align-items: center;
-  font-family: "Raleway", sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+    color: var(--primary-brand);
+    margin-bottom: 16px;
+    display: inline-block;
+    align-items: center;
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 .footer-second-logo {
   color: var(--light);
@@ -320,10 +320,6 @@ body {
   align-items: flex-start;
 }
 
-.button-box {
-  margin-bottom: 72px;
-  margin-top: 96px;
-}
 .content-button-item {
   flex-direction: raw;
 }
